@@ -21,7 +21,7 @@ npm run build
 - Next: Python daily ingestion workers → PostgreSQL/pgvector → Spring Boot API. Needs a host that runs a JVM + Postgres and a scheduler (e.g. cron/GitHub Actions); Kafka only when streaming is justified.
 - Roadmap: public-company fundamentals → cross-sector narrative mapping → attention analysis → point-in-time signal evaluation.
 
-See [docs/DATA_PROVIDERS.md](docs/DATA_PROVIDERS.md). Never commit secrets.
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) (required update with every PR) and [docs/DATA_PROVIDERS.md](docs/DATA_PROVIDERS.md). Never commit secrets.
 
 ## Live site
 Pushes to `main` deploy to GitHub Pages via `.github/workflows/pages.yml`:
