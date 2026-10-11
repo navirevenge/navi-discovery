@@ -22,3 +22,8 @@ npm run build
 - Roadmap: public-company fundamentals → cross-sector narrative mapping → attention analysis → point-in-time signal evaluation.
 
 See [docs/DATA_PROVIDERS.md](docs/DATA_PROVIDERS.md). Never commit secrets.
+
+## Live site
+Pushes to `main` deploy to GitHub Pages via `.github/workflows/pages.yml`:
+https://navirevenge.github.io/navi-discovery/
+(If the first deploy fails, enable Settings → Pages → Source: GitHub Actions.)
